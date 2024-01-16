@@ -7,24 +7,25 @@
 .navbar{
     margin:0 30px;
     height: 100px;
-    border: 5px solid red;
+    
     display: flex;
     justify-content: space-between;
 }
 .navbar .logo{
     width: 50%;
-    border: purple solid 5px;
+    
     display: flex;
     align-items: center;
 }
 .navbar .logo img{
     height: 50px;
     width: 50px;
-    border: 5px solid green;
+    
     /* object-fit: cover; */
     
 }
 .navbar .logo p{
+    color: black;
     font-size: 1.3em;
     padding-left: 10px;
     font-weight: 800;
@@ -34,7 +35,7 @@
    
 }
 .navbar .menu{
-    border:5px solid steelblue;
+    
     display: flex;
     gap:20px;
     align-items: center;
@@ -42,6 +43,9 @@
 .navbar .menu a{
     text-decoration: none;
     color: grey;
+}
+.iconformobile{
+    display: none;
 }
 .navbar .menu a:hover{
     color: orangered;
@@ -98,6 +102,7 @@
     background-color: orangered;
     color: azure;
     font-size: 1.2em;
+    text-indent: -10%;
 }
 
 
@@ -144,8 +149,15 @@
     flex-direction: column;
     align-items: center;
 }
-.yourdestination h1,p{
+.yourdestination h1{
     border: red 2px solid;
+}
+.yourdestination p{
+    color:black;
+    border: red 2px solid;
+}
+.yourdestination .picture{
+    display: grid();
 }
 
 
