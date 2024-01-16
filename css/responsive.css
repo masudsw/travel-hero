@@ -45,6 +45,12 @@
     width: 80%;
     padding:20px; 
   }
+  
+  .imagecontainer .image{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    
 }
     
 

@@ -143,8 +143,11 @@
 }
 
 .yourdestination{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: 20px auto;
+    border: red solid 5px;
     width:90%;
-    height: 20px auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -153,11 +156,35 @@
     border: red 2px solid;
 }
 .yourdestination p{
+    padding:20px;
+    width:80%;
     color:black;
     border: red 2px solid;
 }
-.yourdestination .picture{
-    display: grid();
+
+
+.imagecontainer{
+    width: 100%;
+    border: 5px solid red;
+    display: flex;
+    flex-wrap: wrap;
+    gap:20px;
+}
+.image img{
+    width: 100%;
+}
+.imagecontainer .image{
+    border: green solid 3px;
+    position: relative;
+    flex-basis: auto;
+}
+.imagecontainer .image .centered{
+    border: red solid 3px;
+    color: white;
+    font-size: 1.5em;
+    position: absolute;
+    top: 50%;
+    left:50%;
 }
 
 
