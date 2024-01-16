@@ -69,7 +69,7 @@
     border-radius: 15px;
     padding: 0 30px;
 }
-.search h1,p{
+.search h1,.search p{
     color: white;
 }
 .search h1{
@@ -146,47 +146,98 @@
     padding-top: 30px;
     padding-bottom: 30px;
     margin: 20px auto;
-    border: red solid 5px;
+    
     width:90%;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 .yourdestination h1{
-    border: red 2px solid;
+    
 }
 .yourdestination p{
     padding:20px;
     width:80%;
     color:black;
-    border: red 2px solid;
+    
 }
 
 
 .imagecontainer{
     width: 100%;
-    border: 5px solid red;
+   
     display: flex;
     flex-wrap: wrap;
     gap:20px;
 }
 .image img{
     width: 100%;
+    border-radius: 20px;
 }
 .imagecontainer .image{
-    border: green solid 3px;
     position: relative;
     flex-basis: auto;
+    
 }
 .imagecontainer .image .centered{
-    border: red solid 3px;
+    
     color: white;
     font-size: 1.5em;
     position: absolute;
     top: 50%;
-    left:50%;
+    left:30%;
 }
+.whychooseus{
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 20px auto;
+    align-items: center;
+}
+.whychooseus h1{
+    
+    width: 20%;
+    padding: 30px auto;
+}
+.whychooseus p{
+    width:60%;
+    text-align: center;
+    padding: 50px auto;
+    
+}
+.ourservices{
+    
+    width: 1230px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(2,1fr);
+    align-items: center;
+    gap:20px;
+}
+.ourservices img{
+    width: 10%;
+}
+.ourservices div{
+    /* width:50%; */
+    height: 300px;
+    padding:20px;
+}
+.ourservices .service1{
+    grid-column: 1/span 2;
+    background-color: rgb(204, 200, 200);
+    border-radius: 10px;
+}
+.ourservices .service2{
+    grid-column: 3/span 2;
+    background-color: rgb(204, 200, 200);;
+    border-radius: 10px;
+}
+.ourservices .service3{
+    grid-column: 2/span 2;
+    grid-row: 2/span 1;
+    background-color: rgb(146, 141, 141);;
+    border-radius: 10px;
 
 
-
-
+}
