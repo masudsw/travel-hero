@@ -75,3 +75,21 @@
   flex-direction: column;
 }
 
+.newsletter{
+  height: 500px;
+  flex-direction: column;
+}
+.newsletter .info{
+  border:green solid 3px;
+  width: 100%;
+}
+.newsletter .picture{
+  height:400px;
+  width: 100%;
+ 
+  
+}
+.newsletter .picture img{
+  width: 100%;
+  object-fit: cover;
+}

@@ -241,3 +241,37 @@
 
 
 }
+
+.newsletter{
+    margin: 50px auto;
+    width: 90%;
+    display: flex;
+}
+.newsletter .info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0 20px;
+    width: 40%;
+}
+.newsletter .info input{
+    height: 50px;
+    border-radius: 10px;
+}
+.newsletter .picture{
+    width: 60%;
+    position: relative;
+}
+.newsletter .picture img{
+    width: 100%;
+}
+
+    
+.newsletter .picture .discount{
+    background-color: orangered;
+    color: white;
+    position: absolute;
+    rotate: -45deg;
+    bottom:70px;
+    right:20px;
+}
