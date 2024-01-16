@@ -48,16 +48,106 @@
 }
 
 .search .searchbox *{
-    border: 3px red solid;
+    
 }
 .search{
-    height: 400px;
+    
     margin: 10px 20px;
     background-image: url(../Images/Group\ 13.png);
-    object-fit: cover;
-    background-repeat:no-repeat;
+    width: 90%;
+    height: 400px;
     display: flex;
+    background-size: cover;
+    background-position: center;
     flex-direction: column;
     justify-content:space-around;
     align-items: center;
+    border-radius: 15px;
+    padding: 0 30px;
 }
+.search h1,p{
+    color: white;
+}
+.search h1{
+    font-size: 2.5em;
+}
+.search p{
+    margin: 0 auto;
+    width: 70%;
+    text-align: center;
+}
+.search .searchbox{
+    display: flex;
+    justify-content: space-around;
+    
+    width: 60%;
+    height: 50px;
+    background-color: rgb(224, 208, 208);
+    opacity: 0.8;
+    border-radius: 10px;
+    
+}
+.search .searchbox *{
+    width: 150px;
+    border-radius: 10px;
+    padding-left: 20px;
+    border:none;
+    /* border: 2px solid white; */
+}
+.search .searchbox button{
+    background-color: orangered;
+    color: azure;
+    font-size: 1.2em;
+}
+
+
+.populartours{
+    display: flex;
+    margin: 50px auto;
+    width: 85%;
+}
+.populartours .tourdescription{
+    padding:50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:flex-start;
+}
+.populartours .tourdescription p{
+    
+    color: black;
+}
+.populartours .tourdescription h1{
+    font-size: 2.5em;
+}
+
+.primarybutton
+{
+    background-color: orangered;
+    color: azure;
+    font-size: 1.2em;
+    height: 40px;
+    width: 150px;
+    border-radius: 10px;
+    border: none;
+}
+.ulitems li{
+    
+    margin: 10px 0;
+    list-style-position: inside;
+}
+
+.yourdestination{
+    width:90%;
+    height: 20px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.yourdestination h1,p{
+    border: red 2px solid;
+}
+
+
+
+

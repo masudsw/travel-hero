@@ -1,0 +1,44 @@
+@media only screen and (max-width: 600px){
+
+  .navbar .menu{
+    display: none;
+    <i class="fa fa-bars"></i>
+  }
+  .search{
+    width: 90%;
+    max-width: 600px;
+    flex-direction: column;
+    width: auto;
+    /* justify-content: center; */
+    justify-items: center;
+  }
+  .search .searchbox{
+    width: 90%;
+    
+    flex-direction: column;
+    justify-content: space-between;
+    height: 200px;
+    align-items: center;
+  }
+  .search .searchbox *{
+    height:40px;
+  }
+  .search .searchbox button{
+    font-size: 1.1em;
+  }
+
+  .populartours{
+    flex-direction: column;
+  }
+  .populartours .tourdescription h1{
+    font-size: 1.6em;
+    padding: 20px;
+  }
+  .primarybutton{
+    height: 80%;
+    width: 80%;
+    padding:20px; 
+  }
+}
+    
+
